@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.playerButton {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.playerButton:hover {
+  background: #00000047;
+  color: rgb(255, 81, 0);
+  border-radius: 50%;
+}
+
+.bg {
+  background: rgb(53, 60, 59);
+  background: radial-gradient(
+    circle,
+    rgba(53, 60, 59, 1) 0%,
+    rgba(27, 27, 28, 1) 100%
+  );
+}
+
+.track-color {
+  background: rgb(182, 53, 32);
+  background: radial-gradient(
+    circle,
+    rgba(182, 53, 32, 1) 0%,
+    rgba(192, 85, 36, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
